@@ -1,0 +1,57 @@
+body {
+    background-color: #1A1A1A;
+    font-family: 'Georgia', serif;
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.encuesta {
+    background-color: #2A2A2A;
+    border: 2px solid #FF3366;
+    border-radius: 12px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Impact', 'Georgia', serif;
+    font-size: 22px;
+    color: #FF3366;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    color: #F2F2F2;
+    border: 2px solid #FF3366;
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #FF3366;
+    color: #1A1A1A;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px dashed #FF3366;
+}
+
+span {
+    font-weight: bold;
+    color: #FF6699;
+}

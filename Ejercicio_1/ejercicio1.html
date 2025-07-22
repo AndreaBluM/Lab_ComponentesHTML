@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body>
+    <div class="encuesta">
+        <h1>¿Qué personaje de nana te gusta mas?</h1>
+        <button onclick="votar('nana')">Nana</button>
+        <button onclick="votar('taku')">Takumi</button>
+        <button onclick="votar('nobu')">Nobuo</button>
+
+        <div class="resultado">
+            Nana - Votos: <span id="votos-nana">0</span><br>
+            Takumi - Votos: <span id="votos-taku">0</span><br>
+            Nobuo - Votos: <span id="votos-nobu">0</span>
+        </div>
+    </div>
+
+    <script src="ejercicio1.js"></script>
+
+</body>
+
+</html>

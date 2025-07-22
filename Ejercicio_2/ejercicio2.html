@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Tienda de nana</h2>
+
+    <div class="producto">
+        <p>Producto: <strong>Collar encendedor de Shin</strong></p>
+        <p>Precio: $<span id="precio1">25</span></p>
+        <button class="boton" onclick="agregarAlCarrito('Collar', 25)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <p>Producto: <strong>Camisa nana</strong></p>
+        <p>Precio: $<span id="precio2">40</span></p>
+        <button class="boton" onclick="agregarAlCarrito('Camisa', 40)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <p>Producto: <strong>Botas Viviane</strong></p>
+        <p>Precio: $<span id="precio3">30</span></p>
+        <button class="boton" onclick="agregarAlCarrito('Botas', 30)">Agregar al carrito</button>
+    </div>
+
+    <h3>Resumen del carrito</h3>
+    <p>Items totales: <span id="total-items">0</span></p>
+    <p>Total a pagar: $<span id="total-precio">0</span></p>
+    <button class="boton" onclick="vaciarCarrito()">Vaciar carrito</button>
+
+    <script src="ejercicio2.js"></script>
+
+</body>
+
+</html>
